@@ -1,3 +1,7 @@
 // code your `hello` function here!
 
-export const hello = console.log("Hello World")
+function hello() {
+    console.log("Hello World");
+}
+
+exports.hello = hello;

@@ -4,4 +4,5 @@ function hello() {
     console.log("Hello World");
 }
 
-exports.hello = hello;
+const _hello = hello;
+export { _hello as hello };

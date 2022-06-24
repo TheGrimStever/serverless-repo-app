@@ -4,4 +4,4 @@ function hello() {
     console.log("Hello World");
 }
 
-exports.hello =
+exports.hello = hello;
